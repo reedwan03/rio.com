@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Border Canary",
+    "type": "bird",
+    "description": "Border Canaries are the result of the evolution of common canary.",
+    "image": "https://www.coopsandcages.com.au/wp-content/uploads/2014/01/6-Bird-Border-Canary1.jpg",
+    "price": "$900"
+  },
+  {
+    "id": "2",
+    "name": "Affenpinscher",
+    "type": "dog",
+    "description": "Loyal, curious, and famously amusing, this almost-human toy dog is fearless.",
+    "image": "https://www.akc.org/wp-content/uploads/2017/11/Affenpinscher-running-outdoors.jpg",
+    "price": "$1500"
+  },
+  {
+    "id": "3",
+    "name": "Alaskan Malamute",
+    "type": "dog",
+    "description": "An immensely strong, heavy-duty worker of spitz type",
+    "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/09151144/Alaskan-Malamute-standing-in-the-grass1.jpg",
+    "price": "$3000"
+  },
+  {
+    "id": "4",
+    "name": "Birman Cat ",
+    "type": "cat",
+    "description": "The Birman is a cat of distinction as well as legend. With their exotic ancestry, luxurious pointed coats, “white gloved” paws and mesmerizing blue eyes, this is a breed with undeniable charisma",
+    "image": "https://ntbrand-wp.s3.amazonaws.com/mystart/wp-content/uploads/2023/04/03133320/British_Shorthair_636d0f0565dc8a9e4afff904-1-e1680543278673.jpeg",
+    "price": "$600"
+  },
+  {
+    "id": "5",
+    "name": "Bengal Cat ",
+    "type": "cat",
+    "description": "Bengal Cats are curious and confident with the tameness of a domestic tabby and the beauty of an Asian Leopard Cat.",
+    "image": "https://www.purina.com/_gatsby/image/8ffc824a9ab9ea7c57f016709e730aed/3f561170167ef1bfda649098ed0314c7/Bengal_body_6.avif?u=https%3A%2F%2Fwww.purina.com%2Fsites%2Fdefault%2Ffiles%2Fmedia%2Fimage%2FBengal_body_6.jpg&a=w%3D500%26h%3D500%26fm%3Davif%26q%3D75&cd=afcd40b0088501fa0d97612dbb851096",
+    "price": "$800"
+  },
+  {
+    "id": "6",
+    "name": "Black-throated Sparrow",
+    "type": "bird",
+    "description": "Black-throated Sparrows are small birds often living in the southwestern US and Mexico",
+    "image": "https://www.coopsandcages.com.au/wp-content/uploads/2014/01/5-Bird-Black-Throated-Sparrow1.jpg",
+    "price": "$8000"
+  },
+  {
+    "id": "7",
+    "name": "Cairn Terrier",
+    "type": "dog",
+    "description": "Cairn Terriers are happy, busy little earthdogs originally bred to fearlessly root out foxes",
+    "image": "https://www.akc.org/wp-content/uploads/2017/11/Cairn-Terrier-sitting-in-the-grass.jpg",
+    "price": "$8500"
+  },
+  {
+    "id": "8",
+    "name": "Budgerigars",
+    "type": "bird",
+    "description": "Budgerigars are small birds that are long tailed and feed on seeds. They are native to the desert parts of Australia",
+    "image": "https://www.coopsandcages.com.au/wp-content/uploads/2014/01/8-Bird-Budgerigar1.jpg",
+    "price": "$800"
+  },
+  {
+    "id": "9",
+    "name": "Savannah Cat",
+    "type": "cat",
+    "description": "The Savannah Cat’s personality is playful, adventurous and loyal. Unlike most cats, she loves to play in water and can even be trained to walk on a leash and play fetch",
+    "image": "https://www.purina.com/_gatsby/image/be52155423c25b3271c894902b545129/3f561170167ef1bfda649098ed0314c7/Savannah_body_7.avif?u=https%3A%2F%2Fwww.purina.com%2Fsites%2Fdefault%2Ffiles%2Fmedia%2Fimage%2FSavannah_body_7.jpg&a=w%3D500%26h%3D500%26fm%3Davif%26q%3D75&cd=92a581c0d2129f56af2063c828e74fe4",
+    "price": "$6500"
+  },
+  {
+    "id": "10",
+    "name": "Cane Corso",
+    "type": "dog",
+    "description": "Smart, trainable, and of noble bearing, the assertive and confident Cane Corso",
+    "image": "https://www.akc.org/wp-content/uploads/2017/11/Cane-Corso-AKC-121516-296.jpg",
+    "price": "$400"
+  }
+]
