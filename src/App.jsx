@@ -10,13 +10,14 @@ import Homepage from "./pages/Homepage";
 import Mainlayout from "./layout/Mainlayout";
 import ShopPage from "./pages/ShopPage";
 import AboutPage from "./pages/AboutPage";
-import Pets from "./pets.json";
+import PetItemPage from "./pages/PetItemPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Mainlayout />}>
       <Route index element={<Homepage />} />
-      <Route path="/shop" element={<ShopPage pet={Pets} />} />
+      <Route path="/shop" element={<ShopPage />} />
+      <Route path="/shop/:id" element={<PetItemPage />} />
       <Route path="/about" element={<AboutPage />} />
     </Route>
   )

@@ -6,20 +6,20 @@ import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { MdSell } from "react-icons/md";
 import EmblaCarousel from "./EmblaCarousel";
-import Pets from "../pets.json";
+// import Pets from "../pets.json";
 
 const Hero = () => {
   const [imageUrls, setImageUrls] = useState([]);
 
-  useEffect(() => {
-    const imageURLs = Pets.map((pet) => pet.image); // Extract image URLs
-    setImageUrls(imageURLs); // Update state with image URLs
-  }, []);
+  // useEffect(() => {
+  //   const imageURLs = Pets.map((pet) => pet.image); // Extract image URLs
+  //   setImageUrls(imageURLs); // Update state with image URLs
+  // }, []);
 
   console.log(imageUrls);
 
   const OPTIONS = { loop: true };
-  const SLIDE_COUNT = 8;
+  const SLIDE_COUNT = 13;
   const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -42,7 +42,7 @@ const Hero = () => {
         <div>
           <div className=" flex flex-col gap-6 md:gap-8 ">
             <h1 className="font-primaryRegular text-center md:text-left text-4xl md:text-5xl lg:text-6xl  tracking-tighter  text-transparent bg-clip-text bg-gradient-to-tr from-gradientColor via-white via-white via-white to-white ">
-              Everything, <br></br> furry friends
+              Everything,<br></br>furry friends
             </h1>
             <p className="text-white font-secMedium text-extra-small text-center w-1/2 m-auto leading-5 md:text-left md:m-0 md:text-xs  md:w-3/4 md:leading-6 ">
               At rio.com, we offer all the services you need to keep your pets
